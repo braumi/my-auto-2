@@ -74,6 +74,7 @@ export default function Header() {
       </button>
 
       <input className="searchBar" placeholder="Search"></input>
+
       <button className="about">
         <svg
           width="21"
@@ -89,6 +90,7 @@ export default function Header() {
         </svg>
         About
       </button>
+
       <button className="contactbtn">
         <div class="flex h-[40px] rounded-[12px] items-center pl-[12px] pr-[16px] font-medium text-raisin-100 hover:bg-grey-100 hover:border-raisin-30 text-[12px] lg:text-[14px] border border-raisin-10 ml-[16px] cursor-pointer transition-all header-auth-button">
           <span class="icon-h-[22px] flex mr-[8px]">
