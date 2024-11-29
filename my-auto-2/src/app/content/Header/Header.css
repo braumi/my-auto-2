@@ -15,3 +15,10 @@
   background-color: white;
   border: none;
 }
+
+.searchBar {
+  height: 40%;
+  border-radius: 8px;
+  border: 1px solid lightslategray;
+  font-size: larger;
+}

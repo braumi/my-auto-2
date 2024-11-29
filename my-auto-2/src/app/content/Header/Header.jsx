@@ -72,6 +72,8 @@ export default function Header() {
           ></path>
         </svg>
       </button>
+
+      <input className="searchBar" placeholder="Search"></input>
       <button className="btn">Home</button>
       <button className="btn">Contact</button>
       <button className="btn">About</button>
