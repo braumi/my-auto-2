@@ -58,3 +58,10 @@
 .divSearchbar {
   display: flex;
 }
+
+.plusBtn {
+  border: none;
+  background-color: white;
+  height: 43%;
+  margin: 5px;
+}
