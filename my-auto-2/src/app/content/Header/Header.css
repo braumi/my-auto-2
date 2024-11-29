@@ -1,4 +1,11 @@
-.mainBox .btn {
+.mainBox {
+  border: 1px solid black;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
   border-radius: 12px;
   border: none;
   background-color: #fd4100;
