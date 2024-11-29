@@ -33,3 +33,13 @@
   align-items: center;
   font-weight: 700;
 }
+
+.contactbtn {
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  height: 43%;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
