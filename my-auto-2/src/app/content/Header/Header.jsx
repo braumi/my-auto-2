@@ -73,7 +73,7 @@ export default function Header() {
         </svg>
       </button>
 
-      <input className="searchBar" placeholder="Search"></input>
+      <input className="searchBar" placeholder="Search..."></input>
 
       <button className="about">
         <svg
