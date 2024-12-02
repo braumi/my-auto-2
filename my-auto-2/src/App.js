@@ -5,7 +5,7 @@ import Header from "./app/content/Header/Header";
 import Footer from "./app/content/Footer/Footer";
 import Contact from "./app/content/Contact/Contact";
 import About from "./app/content/About/About";
-import Assignment3 from "./app/content/Assignment3/Assignment3";
+import Assignment3 from "./app/Assignment3/Assignment3";
 
 function App() {
   return (
