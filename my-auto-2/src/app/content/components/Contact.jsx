@@ -3,9 +3,8 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div>
       <a className="contactbtn">
-        <div class="flex h-[40px] rounded-[12px] items-center pl-[12px] pr-[16px] font-medium text-raisin-100 hover:bg-grey-100 hover:border-raisin-30 text-[12px] lg:text-[14px] border border-raisin-10 ml-[16px] cursor-pointer transition-all header-auth-button">
+        <div class="wrapper">
           <span class="icon-h-[22px] flex mr-[8px]">
             <svg
               width="25"
@@ -31,6 +30,5 @@ export default function Contact() {
           Contact
         </div>
       </a>
-    </div>
   );
 }
