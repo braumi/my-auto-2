@@ -1,10 +1,10 @@
 import React from "react";
-import "./About.css";
+import "./Contact.css";
 
 export default function About() {
   return (
-    <div className="main">
-      <a className="about">
+    <a href="/about">
+      <div className="wrapper">
         <svg
           width="21"
           height="20"
@@ -18,7 +18,7 @@ export default function About() {
           ></path>
         </svg>
         About
-      </a>
-    </div>
+      </div>
+    </a>
   );
 }
