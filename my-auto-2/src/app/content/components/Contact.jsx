@@ -3,9 +3,8 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-      <a className="contactbtn">
+      <a href="/contact">
         <div class="wrapper">
-          <span class="icon-h-[22px] flex mr-[8px]">
             <svg
               width="25"
               height="24"
@@ -26,7 +25,6 @@ export default function Contact() {
                 fill="#222222"
               ></path>
             </svg>
-          </span>
           Contact
         </div>
       </a>
