@@ -1,6 +1,6 @@
-export const tempForCar = [
+export const dataForCars = [
   {
-    src: "/img/c1.jpg",
+    src: "/img/c1.webp",
     price: "$57,333",
     carName: "Corvette C1",
     description: "Chevrolet Corvette which was released between 1953-1962",
@@ -42,7 +42,7 @@ export const tempForCar = [
     description: "Chevrolet Corvette which was released between 2014-2019",
   },
   {
-    src: "/img/c8.jpg",
+    src: "/img/c8.jpeg",
     price: "$69,995",
     carName: "Corvette C8",
     description: "Chevrolet Corvette which was released between 2020-",

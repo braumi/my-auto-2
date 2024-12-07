@@ -1,13 +1,21 @@
+.templateMain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
 .template {
-  width: 210px;
-  height: 110px;
   border: 1px solid black;
   border-radius: 8px;
   padding: 5px;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .carImage {
@@ -27,4 +35,19 @@
   padding: 5px;
   font-weight: bold;
   border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .templateMain {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 items per row on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .templateMain {
+    grid-template-columns: 1fr; /* 1 item per row on very small screens */
+  }
 }
