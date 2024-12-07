@@ -23,7 +23,10 @@
     color: lightgray;
     
 }
-button{
+.search svg{
+    padding: 0px;
+}
+.search button{
     border: none;
     background-color: white;
     height: 100%;
