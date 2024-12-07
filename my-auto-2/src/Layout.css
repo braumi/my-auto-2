@@ -1,0 +1,7 @@
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 228px);
+  background-color: #f5f5f5;
+}

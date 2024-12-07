@@ -23,6 +23,9 @@
     color: lightgray;
     
 }
+button svg{
+    padding: 0px;
+}
 button{
     border: none;
     background-color: white;
