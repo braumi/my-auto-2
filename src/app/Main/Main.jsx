@@ -2,7 +2,7 @@ import React from "react";
 import Template from "../content/components/Template";
 import { dataForCars } from "../content/components/Data";
 import { data } from "react-router-dom";
-
+import "./Main.css";
 export default function Main() {
   return (
     <div className="main">
