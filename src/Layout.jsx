@@ -4,7 +4,7 @@ import Main from "./app/Main/Main";
 import Header from "./app/content/Header/Header";
 import Footer from "./app/content/Footer/Footer";
 import Contact from "./app/Contact/Contact";
-import About from "./app/About/About";
+import Profile from "./app/Profile/Profile";
 import Assignment3 from "./app/Assignment3/Assignment3";
 import "./Layout.css";
 
@@ -17,7 +17,7 @@ function Layout({ children }) {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/profile" element={<Profile />} />
             <Route path="/assignment3" element={<Assignment3 />} />
           </Routes>
         </div>
